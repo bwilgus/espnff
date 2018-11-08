@@ -1,11 +1,6 @@
 import espnff, pandas as pd, matplotlib.pyplot as plt, numpy as np
 from espnff import League
 
-a = 2255318
-b = 2018
-c = 'AEAPmSTFJZWO%2B%2Bu7wUaPLlynT6akRwTS%2B9ghn68UG%2F%2Bp6k58djDtfgGLHtpZOe%2FFP%2Bx4VOgIpyd%2BtBn%2FnbPgPm1pzy192bB3EzLwCMx40i%2Fc%2Bs0hEZWEgXC543u20FTJvnhVYG3gF7RKwk81twCMubHA5PrWnrPtCsBfR7RFvnDpB4aOwgZXkI%2B132YL5PGdaP7jQZCkHVcW6YgiCsHU0D0hznkbIVxsZwd2dNkam7h2WwhoZpXRI9i%2FlP5gck71wAUT%2BTiZewEpwpiXuumTOjN1'
-d = '{E9847B8A-5D66-44EE-BC5F-D7E4A554CDC7}'
-
 def power_graphs(league_id=None, year=None, espn_s2=None, swid=None, latestWeek=17):
     if league_id == None:
         raise Exception('Must enter league ID...Exiting')
