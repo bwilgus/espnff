@@ -1,4 +1,4 @@
-import espnff, pandas as pd, matplotlib.pyplot as plt, seaborn as sb, numpy as np, sys
+import espnff, pandas as pd, matplotlib.pyplot as plt, numpy as np
 from pprint import pprint as pp
 from espnff import League
 
